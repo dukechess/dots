@@ -19,3 +19,6 @@ build-essential
 python
 python3-pip
 tor
+openssh-server
+cups
+printer-driver-gutenprint
