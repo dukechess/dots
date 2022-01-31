@@ -21,6 +21,10 @@ if [ -d ~/.bashrc.d ]; then
 	done
 fi
 
+# tmux
+[[ $- != *i* ]] && return
+[[ -z "$TMUX" ]] && exec tmux
+
 unset rc
 
 export BROWSER="firefox"
