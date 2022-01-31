@@ -50,6 +50,7 @@ alias h="history"
 alias h="history | grep"
 alias du="du -kh"
 alias df="df -kTh"
+alias tor-mutt="torsocks mutt -F ~/.config/mutt/muttrc.tor"
 
 # ex
 ex()
